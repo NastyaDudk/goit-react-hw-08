@@ -1,0 +1,26 @@
+.userMenu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menuBtn {
+  margin-right: 30px;
+  background-color: bisque;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00008b;
+  border-radius: 10px;
+  color: #00008b;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 8px;
+  transition: border-color 300ms ease, color 300ms ease;
+}
+
+.menuBtn:hover,
+.menuBtn:focus {
+  background-color: #b0e0e6;
+}

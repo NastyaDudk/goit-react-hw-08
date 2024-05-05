@@ -1,0 +1,67 @@
+.form {
+  width: max-content;
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  gap: 8px;
+  border: 2px solid #00008b;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formTitle {
+  font-size: 14px;
+  color: #00008b;
+}
+
+.formInput {
+  width: 200px;
+  border: 2px solid #00008b;
+  border-radius: 8px;
+  outline: transparent;
+  background-color: transparent;
+  color: #00008b;
+  padding: 8px;
+  transition: border-color 300ms ease;
+}
+
+.formInput::placeholder {
+  font-size: 12px;
+}
+
+.formInput:focus {
+  border-color: #00008b;
+}
+
+.errorMassage {
+  color: #e02e2e;
+}
+
+.formBtn {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00008b;
+  -webkit-box-shadow: 0px 0px 17px -3px rgba(0, 0, 139);
+  -moz-box-shadow: 0px 0px 17px -3px rgba(0, 0, 139);
+  box-shadow: 0px 0px 17px -3px rgba(0, 0, 139);
+  border-radius: 10px;
+  background-color: transparent;
+  color: #00008b;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 12px;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: border-color 300ms ease, color 300ms ease;
+}
+
+.formBtn:hover,
+.formBtn:focus {
+  background-color: #b0e0e6;
+  border-color: #00008b;
+}

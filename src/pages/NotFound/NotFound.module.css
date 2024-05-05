@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link {
+  background-color: bisque;
+  color: #00008b;
+  transition: color 300ms ease-in-out;
+}
+
+.link:hover,
+.link:focus {
+  background-color: #00bfff;
+}
